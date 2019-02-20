@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styleFTP.css"/>
+		<title>FindThePrecious_Contact</title>
+	</head>
+
+	<body>
+
+		<header>
+			<div class="banner">
+				<img src="https://via.placeholder.com/468x60?text=468x60+Full+BannerC/O" alt="BannerFellows" title="BannerFellows" />
+				<h2>Contact us</h2>
+			</div>
+		</header>
+
+		<div class="intro">
+			<p>The Master wants your feedback!<br/>Talk to him now!</p>
+		</div>
+
+	<!--Menu Burger: commun à toutes les pages-->
+
+		<nav id="burger">
+  			<div id="menuToggle">
+    			<input type="checkbox" />
+    			<span></span>
+    			<span></span>
+    			<span></span>
+    			
+    			<ul id="menu">
+      				<li><a href="Page_Menu.html">Home</a></li>
+      				<li><a href="Fellows.html">Fellows</a></li>
+      				<li><a href="Reward.html">Get my reward</a></li>
+      				<li><a href="BestHunters.html">Best hunters</a></li>
+      				<li><a href="TheRing.html">the Ring</a></li>
+      				<li><a href="JoinTheArmy.html">Join the Army</a></li>
+      				<li><a href="Contact.html">Contact us</a></li>
+      			</ul>
+  			</div>
+		</nav>
+
+	<!--Fin du Menu Burger-->
+
+	<!--Formulaire contact-->
+
+
+         <div id="contact">
+
+             <form method="post" action="formulaire.php">
+                 <fieldset id="personal_info">
+		                <legend>Your personal infos</legend>
+			                <label for="name">Enter your name:</label>
+			                <input type="text" name="name" id="name" placeholder="Ex:Jean Dupont"><br>
+			                <label for="email">Email address:</label>
+			                <input type="email" name="email" id="email" placeholder="Ex:jeandupont@gmail.com"><br>
+	               </fieldset>
+
+	               <fieldset id="request">
+		                <legend>Your request</legend>
+			                  <label for="name"></label>
+			                      <select name="request">
+				                        <option value="one_of_them">I've seen one of them!</option>
+				                        <option value="reward">I can't get my reward</option>
+				                        <option value="weapon">How can I buy more weapons</option>
+				                        <option value="ring">How can I reach the Ring</option>
+				                        <option value="event">I want to organize an event</option>
+				                        <option value="meeting">How can I meet Sauron</option>
+			                      </select>
+	                </fieldset>
+
+	                <fieldset id="message">
+	                	<legend>Your message</legend>
+		          		<textarea name="message" rows="25" cols="80"></textarea><br>
+		                    <input type="submit" value="Send">
+	                </fieldset>
+	
+              </form>
+        </div>
+        <hr/>
+
+    <!--Footer:mentions legales, etc...-->
+
+    	<footer id="mentions">
+    		<ul>
+    			<li>About Us</li>
+    			<li><a href="Fellows.html">Fellows</a></li>
+    			<li><a href="JoinTheArmy.html">Join the Army</a></li>
+    			<li>FAQ</li>
+    			<li>Reward conditions</li>
+    			<li>Legal mentions</li>
+    			<li><a href="https://www.sauronforever.com">www.sauronforever.com</a></li>
+    			<li><a href="https://www.sauronrulesthemall.com">www.sauronrulesthemall.com</a></li>
+    			<li>Follow Him</li>
+    			<li>
+    				<img src="https://img.icons8.com/color/30/000000/facebook.png" alt="facebook">
+    				<img src="https://img.icons8.com/color/30/000000/twitter.png" alt="twitter">
+    				<img src="https://img.icons8.com/color/30/000000/google-logo.png" alt="google">
+    			</li>
+    		</ul>
+    	</footer>
+    </body>
+</html>
